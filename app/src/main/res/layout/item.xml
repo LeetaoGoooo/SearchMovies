@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_height="fill_parent"
+              android:layout_width="fill_parent">
+            <ImageView
+                android:id="@+id/downLoadImage"
+                android:layout_marginRight="10dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/ic_down"/>
+            <TextView
+                android:id="@+id/movieUrl"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:textSize="20sp"/>
+</LinearLayout>
